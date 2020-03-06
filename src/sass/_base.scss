@@ -1,0 +1,65 @@
+:root {
+  //higher specificity selector
+  // -- CSS Custom properties --
+  --color-primary: #eb2f64;
+  --color-primary-light: #ff3366;
+  --color-primary-dark: #ba265d;
+
+  --Grey-light-1: #faf9f9;
+  --Grey-light-2: #f4f2f2;
+  --Grey-light-3: #f0eeee;
+  --Grey-light-4: #ccc;
+
+  --Grey-dark-1: #333;
+  --Grey-dark-2: #777;
+  --Grey-dark-3: #999;
+
+  --shadow-dark: 0 2rem 6rem rgba(0, 0, 0, 0.3);
+  --shadow-light: 0 2rem 5rem rgba(0, 0, 0, 0.07);
+  --line: 1px solid var(--Grey-light-1);
+}
+
+$bp-largest: 75em; //1200px
+$bp-large: 68.75em; //1100px
+$bp-medium: 56.25em; //900px
+$bp-small: 37.5em; //600px
+$bp-smallest: 31.25em; //500px
+$bp-smallest2: 28.125em; //450px
+$bp-smallest3: 21.875em; //350px
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit; // inherits from html
+}
+
+html {
+  box-sizing: border-box; // and everything inherits this property
+  font-size: 62.5%; // 1rem = 10px  10 / 16px(browser default) = 62.5%
+
+  @media screen and (max-width: $bp-large) {
+    font-size: 50%;
+  }
+}
+
+body {
+  font-family: 'Open Sans';
+  font-weight: 400;
+  letter-spacing: 1.6;
+  color: var(--Grey-dark-2);
+  background-image: linear-gradient(
+    to right bottom,
+    var(--color-primary),
+    var(--color-primary-light),
+    var(--color-primary-dark)
+  );
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  min-height: 100vh;
+}
