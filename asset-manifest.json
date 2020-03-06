@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/trillo/static/css/main.00e44987.chunk.css",
+    "main.js": "/trillo/static/js/main.be12079d.chunk.js",
+    "main.js.map": "/trillo/static/js/main.be12079d.chunk.js.map",
+    "runtime-main.js": "/trillo/static/js/runtime-main.db81a2c3.js",
+    "runtime-main.js.map": "/trillo/static/js/runtime-main.db81a2c3.js.map",
+    "static/js/2.ee266a61.chunk.js": "/trillo/static/js/2.ee266a61.chunk.js",
+    "static/js/2.ee266a61.chunk.js.map": "/trillo/static/js/2.ee266a61.chunk.js.map",
+    "index.html": "/trillo/index.html",
+    "precache-manifest.1e7709e6f6da479404f77d42fdc9a2a7.js": "/trillo/precache-manifest.1e7709e6f6da479404f77d42fdc9a2a7.js",
+    "service-worker.js": "/trillo/service-worker.js",
+    "static/css/main.00e44987.chunk.css.map": "/trillo/static/css/main.00e44987.chunk.css.map",
+    "static/js/2.ee266a61.chunk.js.LICENSE.txt": "/trillo/static/js/2.ee266a61.chunk.js.LICENSE.txt",
+    "static/media/main.scss": "/trillo/static/media/chevron-thin-right.c7fedfa0.svg",
+    "static/media/hotel-1.jpg": "/trillo/static/media/hotel-1.5a550a3d.jpg",
+    "static/media/hotel-2.jpg": "/trillo/static/media/hotel-2.5468a3b1.jpg",
+    "static/media/hotel-3.jpg": "/trillo/static/media/hotel-3.7af5efbc.jpg",
+    "static/media/sprite.svg": "/trillo/static/media/sprite.0de270de.svg",
+    "static/media/user.jpeg": "/trillo/static/media/user.ccbe01b0.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.db81a2c3.js",
+    "static/js/2.ee266a61.chunk.js",
+    "static/css/main.00e44987.chunk.css",
+    "static/js/main.be12079d.chunk.js"
+  ]
+}
